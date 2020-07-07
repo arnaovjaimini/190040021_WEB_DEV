@@ -1,0 +1,35 @@
+div {
+	border: solid;
+}
+p {
+	font-style: italic;
+}
+h1 {
+	text-shadow: 2px 2px;
+}
+.itm1 { 
+	   grid-area: header; 
+}
+.itm2 { 
+	   grid-area: menu; 
+}
+.itm3 { 
+	   grid-area: main; 
+}
+.itm4 { 
+	   grid-area: right; 
+}
+.itm5 { 
+	   grid-area: footer; 
+}
+
+.grid-container {
+  display: grid;
+  grid-template-areas:    'header header header header header header' 'menu main main main right right' 'menu footer footer footer footer footer';
+  grid-gap: 10px;
+  padding: 10px;
+}
+ul {
+  margin-left: 1px;
+}
+
